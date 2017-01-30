@@ -1,0 +1,8 @@
+program HelloWorld ( output );
+
+{This program just prints "Hello World"}
+
+begin
+    write('Hello World;);
+    writeln;
+end.

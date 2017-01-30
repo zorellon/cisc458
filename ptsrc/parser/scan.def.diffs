@@ -1,0 +1,46 @@
+c39
+	pUsing = 4;
+.
+c44
+	pVal = 9;
+.
+c49 50
+	pDef = 14;
+	pUnless = 15;
+.
+c53 54
+	pElsif = 18;
+	pBreak = 19;
+.
+c58 86
+	pWhen = 23;
+	pModule = 24;
+	lastKeywordToken = 24;
+	pIdentifier = 25;
+	firstCompoundInputToken = 25;
+	pInteger = 26;
+	pLiteral = 27;
+	lastCompoundInputToken = 27;
+	pNewLine = 28;
+	pEndFile = 29;
+	pPlus = 30;
+	pMinus = 31;
+	pStar = 32;
+	pColonEquals = 33;
+	pDot = 34;
+	pComma = 35;
+	pSemicolon = 36;
+	pColon = 37;
+	pEquals = 38;
+	pNotEqual = 39;
+	pLess = 40;
+	pLessEqual = 41;
+	pGreaterEqual = 42;
+	pGreater = 43;
+	pLeftParen = 44;
+	pRightParen = 45;
+	pLeftBracket = 46;
+	pRightBracket = 47;
+	pDotDot = 48;
+	lastSyntaxToken = 48;
+.

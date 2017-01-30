@@ -1,0 +1,114 @@
+	{ Semantic Operations }
+	oBufferSave = 14;
+
+	{ Input Tokens }
+	lLetter = 0;
+	firstCharClass = 0;
+	lDigit = 1;
+	lPlus = 2;
+	lMinus = 3;
+	lStar = 4;
+	lColon = 5;
+	lEquals = 6;
+	lDot = 7;
+	lComma = 8;
+	lSemicolon = 9;
+	lQuote = 10;
+	lLeftAngle = 11;
+	lRightAngle = 12;
+	lLeftParen = 13;
+	lRightParen = 14;
+	lLeftBracket = 15;
+	lRightBracket = 16;
+	lLeftBrace = 17;
+	lRightBrace = 18;
+	lBlank = 19;
+	lIllegal = 20;
+	lNewLine = 21;
+	lTab = 22;
+	lNewPage = 23;
+	lEndFile = 24;
+	lastCharClass = 24;
+
+	{ Output Tokens }
+	pDiv = 0;
+	firstKeywordToken = 0;
+	pMod = 1;
+	pOr = 2;
+	pAnd = 3;
+	pUsing = 4;
+	pThen = 5;
+	pElse = 6;
+	pOf = 7;
+	pEnd = 8;
+	pVal = 9;
+	pDo = 10;
+	pArray = 11;
+	pFile = 12;
+	pPacked = 13;
+	pDef = 14;
+	pUnless = 15;
+	pVar = 16;
+	pType = 17;
+	pElsif = 18;
+	pBreak = 19;
+	pIf = 20;
+	pCase = 21;
+	pWhile = 22;
+	pWhen = 23;
+	pModule = 24;
+	lastKeywordToken = 24;
+	pIdentifier = 25;
+	firstCompoundInputToken = 25;
+	pInteger = 26;
+	pLiteral = 27;
+	lastCompoundInputToken = 27;
+	pNewLine = 28;
+	pEndFile = 29;
+	pPlus = 30;
+	pMinus = 31;
+	pStar = 32;
+	pColonEquals = 33;
+	pDot = 34;
+	pComma = 35;
+	pSemicolon = 36;
+	pColon = 37;
+	pEquals = 38;
+	pNotEqual = 39;
+	pLess = 40;
+	pLessEqual = 41;
+	pGreaterEqual = 42;
+	pGreater = 43;
+	pLeftParen = 44;
+	pRightParen = 45;
+	pLeftBracket = 46;
+	pRightBracket = 47;
+	pDotDot = 48;
+	lastSyntaxToken = 48;
+
+	{ Input/Output Tokens }
+
+	{ Error Codes }
+	eIllegalChar = 5;
+	firstScanError = 5;
+	eLiteralLine = 6;
+	eLiteralEOF = 7;
+	eCommentEOF = 8;
+	eNoSeparator = 9;
+	lastScanError = 9;
+
+	{ Type Values }
+
+	{ S/SL Rule Table Addresses } {
+	Scan = 0;
+	Identifier = 206;
+	AlternateComment = 311;
+	Integer = 223;
+	Literal = 238;
+	Comment = 282;
+	}
+
+	{ S/SL Table Parameters }
+	sslTblSize = 347;
+	minSslTableValue = -32767;
+	maxSslTableValue = 32767;
